@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    transition: all 0.5s ease;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    transition: 0.3s;
+}
+
+button {
+    padding: 20px 40px;
+    border: none;
+    border-radius: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* 📱 0-400px */
+@media screen and (max-width: 400px) {
+    body {
+        background-color: #FFB6C1;
+    }
+    button {
+        background-color: #8B0000;
+        color: white;
+    }
+}
+
+/* 📱 401-500px */
+@media screen and (min-width: 401px) and (max-width: 500px) {
+    body {
+        background-color: #FFD700;
+    }
+    button {
+        background-color: #4B0082;
+        color: white;
+    }
+}
+
+/* 📱 501-600px */
+@media screen and (min-width: 501px) and (max-width: 600px) {
+    body {
+        background-color: #7FFFD4;
+    }
+    button {
+        background-color: #FF4500;
+        color: white;
+    }
+}
+
+/* 📱 601-700px */
+@media screen and (min-width: 601px) and (max-width: 700px) {
+    body {
+        background-color: #FF69B4;
+    }
+    button {
+        background-color: #2E8B57;
+        color: white;
+    }
+}
+
+/* 📱 701-800px */
+@media screen and (min-width: 701px) and (max-width: 800px) {
+    body {
+        background-color: #20B2AA;
+    }
+    button {
+        background-color: #8A2BE2;
+        color: white;
+    }
+}
+
+/* 💻 801-900px */
+@media screen and (min-width: 801px) and (max-width: 900px) {
+    body {
+        background-color: #F08080;
+    }
+    button {
+        background-color: #228B22;
+        color: white;
+    }
+}
+
+/* 💻 901-1000px */
+@media screen and (min-width: 901px) and (max-width: 1000px) {
+    body {
+        background-color: #FF6347;
+    }
+    button {
+        background-color: #000080;
+        color: white;
+    }
+}
+
+/* 💻 1001-1100px */
+@media screen and (min-width: 1001px) and (max-width: 1100px) {
+    body {
+        background-color: #DDA0DD;
+    }
+    button {
+        background-color: #556B2F;
+        color: white;
+    }
+}
+
+/* 💻 1101-1200px */
+@media screen and (min-width: 1101px) and (max-width: 1200px) {
+    body {
+        background-color: #00CED1;
+    }
+    button {
+        background-color: pink;
+        color: white;
+    }
+}
+
+/* 🖥️ 1201px və yuxarı */
+@media screen and (min-width: 1201px) {
+    body {
+        background: linear-gradient(to right, #000, #434343);
+    }
+    h1 {
+        color: white;
+    }
+    button {
+        background-color: gold;
+        color: black;
+        font-size: 24px;
+        box-shadow: 0 0 20px yellow;
+    }
+}
